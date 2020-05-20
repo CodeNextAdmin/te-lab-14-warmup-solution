@@ -2,7 +2,7 @@
 
 body {
   font-family: Tahoma, arial, sans-serif;
-   
+  margin: 2em;
   background: #d5456d;
 }
 
@@ -12,16 +12,27 @@ h1 {
   backround: #d5456d;
 }
 
-header{
+
+
+h2{
+  color:#edf2f3;
   
-  background: #2478af;
-  color:#edf2f3
-  
-  
-    
 }
 
-header {
+hr{
   
-  
+  margin-left:-20px;
+  margin-right:-20px;
 }
+
+.button-info{
+  
+  margin:20px;
+  color: #edf2f3;
+}
+
+.button-row{
+  
+  margin-top:20px;
+}
+
