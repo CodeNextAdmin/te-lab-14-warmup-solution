@@ -1,11 +1,27 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+  font-family: Tahoma, arial, sans-serif;
+   
+  background: #d5456d;
 }
 
 h1 {
   font-style: italic;
   color: #373fff;
+  backround: #d5456d;
+}
+
+header{
+  
+  background: #2478af;
+  color:#edf2f3
+  
+  
+    
+}
+
+header {
+  
+  
 }
