@@ -52,10 +52,10 @@
 
     <div class="button-row">
       <button onclick="changeAll()">Change All</button>
-      <span class="button-info">Append an emoji: </span>
+      <span class="button-info">uses querySelectAll() to change all matching elements. </span>
     </div>
 
-    <hr />
+    <hr/>
 
     <div class="button-row">
       <button class="styled btn-1">Button</button>
@@ -82,14 +82,7 @@
       }
 
       function changeColor() {
-        let colors = [
-          "#2478af",
-          "#21242f",
-          "#86868c",
-          "#d5456d",
-          "#0f217a",
-          "#b78665"
-        ];
+       
 
         const randomColor = colors[Math.floor(Math.random() * colors.length)]
 
@@ -103,14 +96,16 @@
       }
 
       function changeAll() {
-        const randomColor = colors[Math.floor(Math.random() * colors.length)] 
+        const randomColor1 = colors[Math.floor(Math.random() * colors.length)]
+        const randomColor2 = colors[Math.floor(Math.random() * colors.length)]
         var allMatches = [] /* querySelectorAll returns an array */
         
         allMatches = document.querySelectorAll("button");
         
         for (let i = 0; i < allMatches.length; i++) {
           
-          allMatches[i].style.backgroundColor = randomColor
+          allMatches[i].style.backgroundColor = randomColor1
+          allMatches[i].style.color= randomColor2
         }
       }
     </script>
