@@ -30,7 +30,7 @@ hr{
   margin-top:40px;
 }
 
-#styled-btn-1{
+.btn-1{
   
   width:170px;
   height:70px;
@@ -44,7 +44,7 @@ hr{
   
 }
 
-#styled-btn-2{
+.btn-2{
   width:170px;
   height:70px;
   color:#f3efed;
@@ -55,4 +55,10 @@ hr{
   border-color:#86868c;
   border-radius:15px;
   
+}
+
+/* remove the focus frame on styled buttons */ 
+.styled:focus {
+  outline: none;
+  box-shadow: none;
 }
