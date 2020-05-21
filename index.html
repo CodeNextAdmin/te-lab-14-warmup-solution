@@ -42,8 +42,8 @@
     </div>
     
       <div class="button-row">
-      <button onclick="changeBtn()">Click Me</button>
-      <span class="button-info">This button changes font size of button elements.
+      <button onclick="appendEmoji()">Append</button>
+      <span id="emoji" class="button-info">Append an emoji: 
       </span>
     </div>
 
@@ -58,7 +58,14 @@
         
         const randomColor = colors[Math.floor(Math.random() * colors.length)];
         console.log(randomColor)
-        document.querySelector("body").style.backgroundColor = randomColor;
+        let text = document.querySelector("#emoji").innerHtml()
+        alert(text)
+        
+      }
+      
+      function appendEmoji(){
+        
+        
         
       }
     </script>
