@@ -36,3 +36,15 @@ hr{
   margin-top:40px;
 }
 
+#styled-btn-1{
+  
+  width:70px;
+  height:70px;
+  color:#f3efed;
+  background:#2478af;
+  font-size: 120%;
+  font-style:  oblique;
+   
+  border-color:#86868c;
+  
+}
