@@ -6,13 +6,6 @@ body {
   background: #d5456d;
 }
 
-h1 {
-  font-style: italic;
-  color: #373fff;
-  backround: #d5456d;
-}
-
-
 
 h2{
   color:#edf2f3;
@@ -23,6 +16,7 @@ hr{
   
   margin-left:-20px;
   margin-right:-20px;
+  margin-top:20px;
 }
 
 .button-info{
@@ -38,13 +32,27 @@ hr{
 
 #styled-btn-1{
   
-  width:70px;
+  width:170px;
   height:70px;
   color:#f3efed;
   background:#2478af;
   font-size: 120%;
   font-style:  oblique;
-   
+  box-shadow: 2px 2px 4px #86868c;
   border-color:#86868c;
+  border-radius:15px;
+  
+}
+
+#styled-btn-2{
+  width:170px;
+  height:70px;
+  color:#f3efed;
+  background:#0f217a;
+  font-size: 120%;
+  font-style:  oblique;
+  box-shadow: 2px 2px 4px #86868c;
+  border-color:#86868c;
+  border-radius:15px;
   
 }
