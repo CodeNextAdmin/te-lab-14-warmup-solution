@@ -34,10 +34,27 @@
         html file.
       </span>
     </div>
+    
+    <div class="button-row">
+      <button onclick="changeBtnColor()">Click Me</button>
+      <span class="button-info">This button uses the selector property to change the body background.
+      </span>
+    </div>
 
     <script>
       function showAlert() {
         alert("I'm touched!!! 😊 ");
+      }
+      
+      function changeBtnColor() {
+        
+        let colors = ["#2478af", "#86868c", "#86868c", "#0f217a"]
+        
+        const randomColor = colors[Math.floor(Math.random() * colors.length)];
+        console.log(randomColor)
+        document.querySelector("body").style.backgroundColor = randomColor;
+        
+        
       }
     </script>
   </body>
