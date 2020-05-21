@@ -40,6 +40,12 @@
       <span class="button-info">This button uses the selector property to change the body background.
       </span>
     </div>
+    
+      <div class="button-row">
+      <button onclick="changeBtn()">Click Me</button>
+      <span class="button-info">This button changes font size of button elements.
+      </span>
+    </div>
 
     <script>
       function showAlert() {
@@ -48,12 +54,11 @@
       
       function changeBtnColor() {
         
-        let colors = ["#2478af", "#86868c", "#86868c", "#0f217a"]
+        let colors = ["#2478af", "#21242f"  ,"#86868c", "#d5456d", "#0f217a", "#b78665"]
         
         const randomColor = colors[Math.floor(Math.random() * colors.length)];
         console.log(randomColor)
         document.querySelector("body").style.backgroundColor = randomColor;
-        
         
       }
     </script>
