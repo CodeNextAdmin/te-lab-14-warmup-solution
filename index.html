@@ -52,25 +52,26 @@
 
     <div class="button-row">
       <button onclick="changeAll()">Change All</button>
-      <span class="button-info">uses querySelectAll() to change all matching elements. </span>
+      <span class="button-info"
+        >uses querySelectAll() to change all matching elements.
+      </span>
     </div>
 
-    <hr/>
+    <hr />
 
     <div class="button-row">
       <button class="styled btn-1">Button</button>
       <span class="button-info"> Partially styled in CSS </span>
     </div>
 
-    <div class="button-row">
-      <button focus="true" class="styled btn-2">Button</button>
-      <span class="button-info"> Active </span>
-    </div>
-     
-     <a href="#" class="btn-hollow" onclick="alert('hello')">
-    <span class="btn-title">Click me!</span>
-    </a>  
-    <span class="button-info"> Buttons can be made from other elements too. Hover and click this fancy anchor tag</span>
+
+    <a href="#" class="btn-hollow" onclick="alert('hello')">
+      <span class="btn-title">Click me!</span>
+    </a>
+    <span class="button-info">
+      Buttons can be made from other elements too. Hover and click this fancy
+      anchor tag</span
+    >
 
     <script>
       let colors = [
@@ -87,30 +88,27 @@
       }
 
       function changeColor() {
-       
+        const randomColor = colors[Math.floor(Math.random() * colors.length)];
 
-        const randomColor = colors[Math.floor(Math.random() * colors.length)]
-
-        document.querySelector("body").style.backgroundColor = randomColor
+        document.querySelector("body").style.backgroundColor = randomColor;
       }
 
       function appendEmoji() {
-        let text = document.querySelector("#emoji").innerHTML
-        text += " 🤡 "       
-        document.querySelector("#emoji").innerHTML = text
+        let text = document.querySelector("#emoji").innerHTML;
+        text += " 🤡 ";
+        document.querySelector("#emoji").innerHTML = text;
       }
 
       function changeAll() {
-        const randomColor1 = colors[Math.floor(Math.random() * colors.length)]
-        const randomColor2 = colors[Math.floor(Math.random() * colors.length)]
-        var allMatches = [] /* querySelectorAll returns an array */
-        
+        const randomColor1 = colors[Math.floor(Math.random() * colors.length)];
+        const randomColor2 = colors[Math.floor(Math.random() * colors.length)];
+        var allMatches = []; /* querySelectorAll returns an array */
+
         allMatches = document.querySelectorAll("button");
-        
+
         for (let i = 0; i < allMatches.length; i++) {
-          
-          allMatches[i].style.backgroundColor = randomColor1
-          allMatches[i].style.color= randomColor2
+          allMatches[i].style.backgroundColor = randomColor1;
+          allMatches[i].style.color = randomColor2;
         }
       }
     </script>
