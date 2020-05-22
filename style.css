@@ -82,8 +82,17 @@ hr{
 }
 .btn-hollow:hover{ 
   
+  color:#fff;
+  border-color: #fff;
+  background:#0f217a;
   
-  
+}
+
+.btn-hollow:active{
+  color:#2478af;
+  border-color: #2478af;
+  background:#0f217a;
+  box-shadow: 2px 2px 4px #86868c;
 }
 
 
