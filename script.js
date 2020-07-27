@@ -14,7 +14,7 @@ let colors = [
       ];
 
       function showAlert() {
-        alert("I'm touched!!! 😊 ");
+        alert("Your form has been submitted!");
       }
 
       function changeColor() {

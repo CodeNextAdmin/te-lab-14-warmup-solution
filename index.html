@@ -17,34 +17,42 @@
     <h2>Code Next Contact Form </h2>
 
     <hr />
+    
+    <h3>
+      Please fill out the following contact form so that we have a way to get in touch with you during the school year!
+    </h3>
 
-    <!--a button element -->
-
+    <!--form -->
+    <form>
+      <div>
+        <p>
+           <input class= "form-item"/> Name
+        </p>
+      </div>
+      <div>
+        <p>
+          <input class= "form-item"/> Phone Number 
+        </p>
+      </div>
+      <div>
+        <p>
+          <input class= "form-item"/> Email Address
+        </p>
+      </div>
+    
+    </form>
+   
+    
+   
+    
+     <!--a button element with a function  -->
+    
     <div class="button-row">
-      <button>Button title</button>
-      <span class="button-info"
-        >This button does nothing. It has no style.</span
-      >
+      <button onclick="showAlert()">Submit Form</button>
     </div>
 
-    <!--a button element with a function  -->
     <div class="button-row">
-      <button onclick="showAlert()">Click Me</button>
-      <span class="button-info"
-        >Runs the function inside the script tags found at the bottom of this
-        html file.
-      </span>
-    </div>
-
-    <div class="button-row">
-      <button onclick="changeColor()">Change color</button>
-      <span class="button-info"
-        >This button uses the selector property to change the body background.
-      </span>
-    </div>
-
-    <div class="button-row">
-      <button onclick="appendEmoji()">Append</button>
+      <button onclick="appendEmoji()">Submit</button>
       <span id="emoji" class="button-info">Append an emoji: </span>
     </div>
 
