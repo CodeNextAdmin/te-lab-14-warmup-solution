@@ -2,18 +2,18 @@
 
 body {
   font-family: Tahoma, arial, sans-serif;
+  color: #00ff00;
   margin: 2em;
-  background: #d5456d;
+  background: #000;
 }
 
 
 h2{
-  color:#edf2f3;
+  color:#fff;
   
 }
 
 hr{
-  
   margin-left:-20px;
   margin-right:-20px;
   margin-top:20px;
@@ -22,7 +22,6 @@ hr{
 .button-info{
   
   margin:20px;
-  color: #edf2f3;
 }
 
 .button-row{
@@ -30,7 +29,7 @@ hr{
   margin-top:40px;
 }
 
-.btn-1{
+.btn{
   
   width:170px;
   height:70px;
@@ -44,20 +43,10 @@ hr{
   
 }
 
-.btn-2{
-  width:170px;
-  height:70px;
-  color:#f3efed;
-  background:#0f217a;
-  font-size: 120%;
-  font-style:  oblique;
-  box-shadow: 2px 2px 4px #86868c;
-  border-color:#86868c;
-  border-radius:15px;
-  
-}
 
 /* remove the focus frame on styled buttons */ 
+
+/*
 .styled:focus {
   outline: none;
   box-shadow: none;
@@ -101,3 +90,4 @@ hr{
   display:inline-block;
   margin-top:20px;
 }
+*/
