@@ -13,11 +13,13 @@
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
   </head>
-  <body><div>
-    
+  <body>
+    <div>
+     <h2>Code Next Contact Form 
+      <button id="modeBtn" class="btn" onclick="lightMode()">Light Mode</button> 
+      </h2>
     </div>
    
-
     <hr />
     
     <h3>
@@ -33,7 +35,7 @@
       </div>
       <div>
         <p>
-          <input class= "form-item" name="pn"/> Phone Number 
+          <input type="tel" class= "form-item" name="pn"/> Phone Number 
         </p>
       </div>
       <div>
@@ -47,7 +49,7 @@
      <!--a button element with a function  -->
     
     <div class="button-row">
-      <button onclick="submitFunction()">Submit Form</button>
+      <button class="btn" onclick="submitFunction()">Submit Form</button>
     </div>
  
   </body>
